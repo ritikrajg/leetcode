@@ -13,7 +13,6 @@ public:
            if(sizeofmatrix>=s){
                break;
            }
-           //cout<<sizeofmatrix<<" ";
            j--;
            for(i=i+1;i<k;i++){
                a.push_back(matrix[i][j]);
@@ -23,7 +22,7 @@ public:
                break;
            }
            i--;
-           for(j=j-1;j>=0+m;j--){
+           for(j=j-1;j>=0+m ;j--){
                a.push_back(matrix[i][j]);
                sizeofmatrix++;
            }
@@ -31,7 +30,7 @@ public:
                break;
            }
            j++;
-           for(i=i-1;i>=0+1+m;i--){
+           for(i=i-1;i>=0+1+m ;i--){
                a.push_back(matrix[i][j]);
                sizeofmatrix++;
            }
